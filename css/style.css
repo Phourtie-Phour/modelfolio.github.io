@@ -367,6 +367,13 @@ button{
 
   }*/
 
+@media (max-width: 1474px){
+    .sns-icons{
+        margin-left:20px;
+    }
+}
+
+
 @media (max-width: 992px){
  .contact-content{
     display: flex;
@@ -387,6 +394,10 @@ button{
 
  .information p{
     text-align: center;
+ }
+
+.sns-icons{
+    margin-left:35px;
  }
 
  .sns-icons a{
