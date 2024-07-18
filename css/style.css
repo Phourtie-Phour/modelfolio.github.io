@@ -304,6 +304,7 @@ button{
 .card-desc{
     margin:0;
     background-color:lightgrey;
+    height:49px;
 }
 
 .card-desc p{
