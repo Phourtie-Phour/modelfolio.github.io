@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>OSWALD's PORTFOLIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-1/js/5-2-1.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="#">OSWALD YORKLAND</a>
+      </div>
+      <ul class="menu-list">
+        <li><a href="#"></a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="hamburger-menu">
+          <span onclick="close()"></span>
+          <span></span>
+          <span></span>
+      </div>
+      <ul class="slide-menu">
+        <li><a onclick="close()" href="#profile">PROFILE</a></li>
+        <li><a onclick="close()" href="#skills">SKILLS</a></li>
+        <li><a onclick="close()" href="#works">WORKS</a></li>
+        <li><a onclick="close()" href="#contact">CONTACT</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="title">
+        <p>OSWALD YORKLAND</p>
+        <p class="subtitle">front-end engineer</p>
+      </section>
+
+      <section id="profile" class="offset">
+        <p class="center-red">PROFILE</p>
+        <div class="prodetails" style="margin-top: -80px">- About Me -</div>
+        <p class="abomessage" style="margin-top: 25px">
+          中学の時、プログラミングに興味を持ち、スクールでの学習を経て、
+          Web制作事業に携わる。以降、彼はフロントエンドエンジニアとしてキャリアを積む。
+          <br>2021年からデータベースにも関心を持ち、SQLを勉強し、データベースを使用した
+          アプリ開発に挑戦している。
+        </p>
+        <div class="biodetails">- Biography -</div>
+        <table class="bio-table">
+          <tbody>
+            <tr>
+              <th>1995年</th>
+              <td>ニューヨーククイーンズ区に生まれる</td>
+            </tr>
+            <tr>
+              <th>2017年-2018年</th>
+              <td>
+                Web制作アシスタントでHTML/CSSを組み込んだホームページを制作する<br />
+                さらに、2018年からはJavaScriptを使用したアニメーションの実装も行う。
+              </td>
+            </tr>
+            <tr>
+              <th>2019年</th>
+              <td>
+                Wordpressを使用したWeb制作をはじめる。また、必要なプラグインを適宜導入し、よりオリジナリティのあるWebサイトを制作する。
+              </td>
+            </tr>
+            <tr>
+              <th>2021年-</th>
+              <td>
+                SQLに関心を持ち、データベースを使用した アプリ開発に挑戦中。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="skills" class="offset">
+        <p class="center-red">SKILLS</p>
+        <table class="skill-table">
+          <tbody>
+            <tr>
+              <th>Canva</th>
+              <td>トリミング、画像加工</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>HTML</th>
+              <td>様々な業種のホームページ制作</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>CSS</th>
+              <td>装飾、アニメーションの実装</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Javascript</th>
+              <td>アニメーションの実装</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Wordpress</th>
+              <td>
+                HTML/CSSで作成したページをWordpressに組み込み、
+                かつプラグインでカスタマイズする。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="works" class="offset">
+        <p class="center-red">WORKS</p>
+        <div class="workarea">
+          <div class="wrk-imgblock">
+            <img id="mybtn" src="./imgs/HistChart.png" alt="" />
+            <div class="workname">
+              <p class="workname-title">データ分析</p>
+              <div class="card-desc">
+                <p>
+                Pythonのライブラリの一つであるPandasを使用し、ヒストグラムを作成しました
+              </p>
+              </div>
+            </div>
+          </div>
+          <div id="Modal1" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <img
+                src="./imgs/markus-winkler-IrRbSND5EUc-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/Hands holding pencils to play tic tac toe.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">〇✖ゲーム</p>
+              <p class="card-desc">pythonを使用した〇✖ゲームを開発しました</p>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/mae-black-CHRSuUZonZ4-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">
+                架空のアイスクリームショップコーポレートサイト
+              </p>
+              <div class="card-desc">
+                <p>
+                HTML/CSSを使用した架空のアイスクリーム店のWEBサイトです
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg"
+              alt=""
+            />
+            <div class="workname">
+              <p class="workname-title">バーガーショップ管理システムアプリ</p>
+              <div class="card-desc">
+                <p>pythonを使用した簡潔なショップ管理システムです</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/vadim-sherbakov-d6ebY-faOO0-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">架空の大学WEBサイト</p>
+              <div class="card-desc">
+                <p>HTML,CSS そしてWordpressのプラグインを使用した架空の大学サイト</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/guilherme-petri-PtOfbGkU3uI-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">
+                架空の美容室WEBサイト
+              </p>
+              <div class="card-desc">
+                <p>こちらもHTML,CSS そしてWordpressのプラグインを使用しております</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="offset">
+        <p class="center-red">CONTACT</p>
+        <div class="contact-content">
+          <div class="information">
+            <p>INFORMATION</p>
+            <p>TEL:80-**-****-****</p>
+            <p>Email:fromexample@com</p>
+            <div class="sns-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-line"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <form action="#">
+            <div class="form-group">
+              <label>Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email"
+                required
+              />
+            </div>
+            <!--<div class="form-group">
+              <label>性別</label>
+              <input type="radio" name="" id="sex"/>
+              <input type="radio" name="" id="sex"/>
+            </div>-->
+            <div class="form-group">
+              <label>Subject</label>
+              <input
+                type="text"
+                name="email"
+                id="subject"
+                placeholder="subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" id="message" placeholder="message" /></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      
+      <p>© 2024 Oswald Yorkland Inc.</p>
+    </footer>
+    <script>
+      var modal = document.getElementById("Modal1");
+      var btn = document.getElementById("mybtn");
+      var span = document.getElementsByClassName("close")[0];
+
+      mybtn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+
+      $(function () {
+        $(window).on("scroll", function () {
+          mvHeight = $("#title").height();
+          if ($(window).scrollTop() > mvHeight) {
+            $("header").addClass(".center-red");
+          }
+        });
+      });
+
+      document.querySelector(".hamburger-menu").addEventListener('click',
+      function () {
+        $(this).toggleClass('active');
+        document.querySelector('.slide-menu').classList.toggle('active');
+      });
+
+
+    </script>
+  </body>
+</html>
