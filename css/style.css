@@ -1,9 +1,6 @@
 *{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
-
-
 
 body{
     margin:0;
@@ -218,9 +215,13 @@ input,textarea{
 
 button{
     background-color: aqua;
-    border: 2px inset rgb(0, 209, 209);
+    border: 2px outset rgb(0, 209, 209);
     margin:19px;
     padding:5px;
+}
+
+button:active{
+    transform: translate(0,2px);
 }
 
 .bio-table{
