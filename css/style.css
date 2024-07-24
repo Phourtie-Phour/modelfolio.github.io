@@ -470,6 +470,12 @@ button:active{
 
 }
 
+@media (max-width: 1069px){
+    #title p{
+        transform: translate(0, 200px);
+      }
+
+}
 
 @media (max-width: 992px){
  .contact-content{
