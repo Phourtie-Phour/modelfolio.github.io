@@ -669,6 +669,23 @@ button:active{
         color:aquamarine;
       }
 
+      .slide-menu.withdraw{
+          animation:leftback 0.5s;
+          animation-fill-mode: forwards;
+      }
+
+      @keyframes leftback{
+          0%{
+            left: 0;
+            opacity:1;
+        }
+
+        100%{
+            left: -800px;
+            opacity:0;
+        }
+      }
+
       #title p{
         transform: translate(0, 200px);
       }
