@@ -88,6 +88,7 @@ header>.menu-list>li>a:hover:after {
 }
 
 
+
 #title{
     background-image:url(../imgs/goran-ivos-iacpoKgpBAM-unsplash.jpg);
     background-size: cover;
@@ -450,7 +451,22 @@ button:active{
         }
       }
 
+      .slide-menu.withdraw{
+          animation:leftback 0.5s;
+          animation-fill-mode: forwards;
+      }
 
+      @keyframes leftback{
+          0%{
+            left: 0;
+            opacity:1;
+        }
+
+        100%{
+            left: -800px;
+            opacity:0;
+        }
+      }
 
       .slide-menu.active li{
         color: #fff;
