@@ -375,7 +375,9 @@ button:active{
 }
 
 @media (max-width: 1164px){
-    
+     .menu-list li{
+        display: none;
+     }
 
      .hamburger-menu{
         display: block;
