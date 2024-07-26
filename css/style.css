@@ -453,7 +453,6 @@ button:active{
 
       .slide-menu.withdraw{
           animation:leftback 0.5s;
-          animation-fill-mode: forwards;
       }
 
       @keyframes leftback{
@@ -671,7 +670,7 @@ button:active{
 
       .slide-menu.withdraw{
           animation:leftback 0.5s;
-          animation-fill-mode: forwards;
+          
       }
 
       @keyframes leftback{
