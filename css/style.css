@@ -690,3 +690,40 @@ button:active{
       }
 
 }
+
+@media (max-width:394px)
+{
+    #title p{
+        font-size:80px;
+    }
+
+
+
+    header>div>a{
+        font-size:25px;
+        margin-left:35px;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .abomessage{
+        font-size:20px;
+    }
+
+    .information p{
+        font-size:25px;
+    }
+
+    .sns-icons {
+        margin-top:5px;
+        margin-left:5px;
+        margin-bottom:10px;
+    }
+
+    .sns-icons a{
+        margin: 0px 12px;
+        padding-left:0px;
+    }
+}
