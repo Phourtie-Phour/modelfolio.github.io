@@ -693,6 +693,10 @@ button:active{
 
 @media (max-width:394px)
 {
+　　#title{
+        height:700px;
+    }
+    
     #title p{
         font-size:80px;
     }
