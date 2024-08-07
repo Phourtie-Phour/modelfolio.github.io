@@ -3,427 +3,327 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HOLOS</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>OSWALD's PORTFOLIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-1/js/5-2-1.js"></script>
   </head>
   <body>
-    <header id="header">
-      <p id="header_logo" class="animate">
-        <a href="">
-          <img src="imgs/logo_fin.png" alt="" />
-        </a>
-      </p>
-      <nav id="global_menu">
-        <ul class="menu">
-          <li>
-            <a href="">当院について</a>
-          </li>
-          <li>
-            <a href="">施術内容</a>
-          </li>
-          <li>
-            <a href="">料金について</a>
-          </li>
-          <li>
-            <a href="">お知らせ</a>
-          </li>
-          <li>
-            <a href="">お客様の声</a>
-          </li>
-          <li>
-            <a href="">アクセス</a>
-          </li>
-          <li>
-            <a href="">ブログ</a>
-          </li>
-          <li>
-            <a href="">ダウンロード</a>
-          </li>
-        </ul>
-        <ul id="header_sns" class="sns_button_list color_type1 animate">
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </nav>
+    <header>
+      <div>
+        <a href="#">OSWALD YORKLAND</a>
+      </div>
+      <ul class="menu-list">
+        <li><a href="#"></a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="hamburger-menu">
+          <span onclick="close()"></span>
+          <span></span>
+          <span></span>
+      </div>
+      <ul class="slide-menu">
+        <li><a onclick="closeMenu()" href="#profile">PROFILE</a></li>
+        <li><a onclick="closeMenu()" href="#skills">SKILLS</a></li>
+        <li><a onclick="closeMenu()" href="#works">WORKS</a></li>
+        <li><a onclick="closeMenu()" href="#contact">CONTACT</a></li>
+      </ul>
     </header>
-    <div id="container">
-      <div
-        id="header_slider_container"
-        class="header_content_type2 height_type1 has_header_news"
-      >
-        <div id="header_slider_fixed_content">
-          <div class="header_slider_content direction_type2 animation_blur">
-            <h2 class="catch rich_font_type2">
-              <span>心</span>
-              <span>か</span>
-              <span>ら</span>
-              <span>元</span>
-              <span>気</span>
-              <span>に</span>
-              <br />
-              <span>笑</span>
-              <span>顔</span>
-              <span>に</span>
-              <span>な</span>
-              <span>れ</span>
-              <span>る</span>
-              <span>庵</span>
-            </h2>
-            <p class="desc animate">
-              カラダの内側にしっかりと働きかけ、
-              <br />
-              人間が本来持っている自然治癒力を高める。
-              <br />
-              東洋医学では心と体は一体と考えます。
-              <br />
-              心体のバランスを整えて健やかな毎日を。
-            </p>
-          </div>
-        </div>
-        <div
-          id="header_slider"
-          class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"
-        >
-          <div class="swipper-wrapper">
-            <div
-              class="swiper-slide item first_item swiper-slide-visible swiper-slide-fully-visible swiper-slide-active swiper-slide-next p-effect-slidein"
-            >
-              <div class="item-inner">
-                <div
-                  class="overlay"
-                  style="background: rgba(79, 35, 0, 0.3)"
-                ></div>
-                <video
-                  class="bg_video"
-                  src="https://demo.tcd-theme.com/tcd108/wp-content/uploads/2024/07/holosmov_fixed.mp4"
-                  playsinline
-                  muted
-                  loop
-                ></video>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="news_ticker" class="post_type_news">
-        <div id="news_ticker_inner"></div>
-        <div id="header_search"></div>
-      </div>
-      <div id="content_builder">
-        <section class="design_content cb_white_bg layout_type1 num1">
-          <div class="content_wrap inview_group animate">
-            <div class="image inview_group_item">
-              <img loading="lazy" src="./imgs/top1.jpg" alt="" />
-            </div>
-            <div class="content direction_type2 inview_group_item">
-              <div class="content_inner">
-                <h3 class="catch">カラダの<br />治癒力を戻す</h3>
-                <div class="desc">
-                  <p>
-                    <span class="pc">
-                      歪みによる痛みや不調の根本原因を改善。
-                      <br />
-                      治癒力を高める手技や鍼を中心とした施術です。
-                      <br />
-                      スポーツの怪我、事故後の不調など、
-                      <br />
-                      あらゆる身体のお悩みを解決に導きます。
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="cb_service bg_type3 num2">
-          <div class="cb_header direction_type1 inview animate">
-            <div class="cb_header_inner">
-              <h3 class="catch">こんな症状で悩んでいませんか？</h3>
-              <div class="desc">
-                <p>
-                  <span class="pc">
-                    眼精疲労からくる頭痛や肩こり、身体の歪みからくる腰や背中の痛み。過負荷による膝の痛みなど。マッサージや鍼灸などを通して根本原因を探ることで、劇的に改善できることがあります。
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="service_list_carousel_wrap inview animate">
-            <div
-              class="service_list_carousel swiper swiper-initialized swiper-horizontal swiper-backface-hidden"
-            >
-              <div class="cb_service_list swiper-wrapper">
-                <a href="">
-                  <div class="image_wrap">
-                    <img src="" alt="" />
-                  </div>
-                  <h4 class="title"></h4>
-                  <p>
-                    <span></span>
-                  </p>
-                </a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-              </div>
-            </div>
-          </div>
-          <div class="link_button">
-            <a href="" class="design_button inview animate">
-              施術内容について
-            </a>
-          </div>
-          <div class="overlay" style="background: rgba(61, 26, 1, 0.5)"></div>
-          <div
-            class="bg_image parallax-initialized parallax-ready"
-            style="
-              background-image: url(https://demo.tcd-theme.com/tcd108/wp-content/uploads/2024/07/top_parralax.jpg);
-              background-position: 50% -188.9px;
-              background-repeat: no-repeat;
-              background-size: 1529px 1399px;
-            "
-          ></div>
-        </section>
-        <section class="cb_slide_content cb_white_bg num3">
-          <div class="cb_header direction_type2 inview animate">
-            <div class="cb_header_inner">
-              <h3 class="catch">
-                笑顔が溢れる
-                <br />
-                癒やし処の想い
-              </h3>
-              <div class="desc">
-                <p>
-                  <span class="pc">
-                    患者さま一人ひとりに寄り添い、
-                    <br />
-                    症状に合わせた最適な施術をご提案。
-                    <br />
-                    体だけでなく心も健やかになってほしい。
-                    <br />
-                    そんな想いが私たちにはあります。
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="slide_content_carousel_wrap inview animate">
-            <div
-              class="slide_content_carousel swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"
-            ></div>
-            <div class="slide_content_list swipper-wrapper">
-              <div class="item swiper-slide swiper-slide-next">
-                <div class="image">
-                  <img src="./imgs/top3.jpg" alt="" />
-                </div>
-                <div class="content">
-                  <h3 class="catch">
-                    カラダの治癒力を目覚めさせる
-                    <br />
-                    東洋医学に基づいた施術
-                  </h3>
-                  <div class="desc">
-                    <p>
-                      <span class="pc">
-                        患者さま一人ひとりに寄り添い、
-                        <br />
-                        症状に合わせた最適な施術をご提案。
-                        <br />
-                        体だけでなく心も健やかになってほしい。
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="slide_content_carousel_pagination swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
-            ></div>
-          </div>
-          <div class="link_button inview animate">
-            <a href="" class="design_button">はじめての方へ</a>
-          </div>
-          <img
-            src="./imgs/mark-fixed.png"
-            alt=""
-            class="cb_bg_image left_top"
-          />
-        </section>
-        <section
-          class="cb_news_list cb_white_bg num4 layout_type2 inview animate"
-        >
-          <div class="cb_news_content">
-            <h2 class="headline">お得なキャンペーン</h2>
-            <div class="header_desc">
-              <p>
-                <span class="pc">
-                  お得なキャンペーンはこちらから。特別価格で東洋医学の施術を体験していただけます。期間限定のものもありますので、健康と癒しを求める皆さまはぜひこの機会にご利用ください。
-                </span>
-              </p>
-            </div>
-            <div class="cb_news_carousel_wrap">
-              <div
-                class="cb_news_carousel swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden"
-              >
-                <div class="news_list swiper-wrapper">
-                  <div class="item swiper-slide swiper-slide-next">
-                    <a href="" class="animate_background">
-                      <div class="image_wrap">
-                        <img src="./imgs/blog_news31-650x430.jpg" alt="" />
-                      </div>
-                    </a>
-                    <div class="content">
-                      <div class="content_inner">
-                        <div class="meta">
-                          <a href="" class="category">キャンペーン</a>
-                          <div class="date_list">
-                            <a href=""></a>
-                          </div>
-                        </div>
-                        <h4 class="title">
-                          <a href=""
-                            >7月限定】初めての方もリピーター様も使える全身鍼灸体験クーポン配布中</a
-                          >
-                        </h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="cb_news_carousel_pagination swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
-              ></div>
-            </div>
-            <div class="link_button inview animate">
-              <a href="" class="design_button"> お知らせ一覧 </a>
-            </div>
-          </div>
-        </section>
-        <section class="cb_voice num5">
-          <div class="cb_header direction_type1 inview"></div>
-          <div class="voice_list_carousel_wrap inview"></div>
-          <div class="link_button inview">
-            <a href="" class="design_button">詳しく見る</a>
-          </div>
-        </section>
-        <section class="cb_blog_list cb_white_bg num6">
-          <div class="cb_header direction_type2 inview animate">
-            <div class="cb_header_inner">
-              <h3 class="catch">
-                カラダが喜ぶ
-                <br />
-                知恵あれこれ
-              </h3>
-              <div class="desc">
-                <p>
-                  <span class="pc">
-                    日常生活で実践できる健康法。
-                    <br />
-                    東洋医学の知恵やセルフケアのコツなど。
-                    <br />
-                    カラダが喜ぶ情報をお届けします。
-                    <br />
-                    あなたの健康維持にお役立てください。
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="cb_blog_carousel_wrap inview">
-            <div
-              class="cb_blog_carousel swiper swiper-initialized swiper-horizontal swiper-backface-hidden"
-            >
-              <div class="blog_list swiper-wrapper">
-                <div class="item swiper-slide swiper-slide-active">
-                  <a href="" class="animate_background">
-                    <div class="image_wrap">
-                      <img
-                        src="./imgs/blog_news4-650x430.jpg"
-                        alt=""
-                        class="image"
-                      />
-                    </div>
-                  </a>
-                  <div class="content">
-                    <div class="content_inner">
-                      <div class="category">
-                        <a href="">健康と身体</a>
-                      </div>
-                      <h4 class="title">
-                        <a href="">
-                          <span
-                            >整体・接骨・鍼灸院向けのWordPressテーマ「HOLOS」</span
-                          >
-                        </a>
-                      </h4>
-                      <div class="date_list"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="cb_blog_carousel_pagination swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
-          ></div>
-          <div class="link_button inview">
-            <a href="" class="design_button">ブログを読む</a>
-          </div>
-          <img src="" alt="" class="cb_bg_image center_top" />
-        </section>
-      </div>
+    <main>
+      <section id="title">
+        <p>OSWALD YORKLAND</p>
+        <p class="subtitle">front-end engineer</p>
+      </section>
 
-      <a href="" id="return_top">
-        <span>RETURN TOP</span>
-      </a>
-      <footer id="footer" class="bg_type2">
-        <section id="footer_widget_area">
-          <div class="footer_widget_content widget_text">
-            <div class="footer_widget_inner">
-              <div class="textwidget">
+      <section id="profile" class="offset">
+        <p class="center-red">PROFILE</p>
+          <div class="prodetails" style="margin-top: -80px">- About Me -</div>
+            <p class="abomessage" style="margin-top: 25px">
+          中学の時、プログラミングに興味を持ち、スクールでの学習を経て、
+          Web制作事業に携わる。以降、彼はフロントエンドエンジニアとしてキャリアを積む。
+          <br>2021年からデータベースにも関心を持ち、SQLを勉強し、データベースを使用した
+          アプリ開発に挑戦している。
+        </p>
+        <div class="biodetails">- Biography -</div>
+        <table class="bio-table">
+          <tbody>
+            <tr>
+              <th>1995年</th>
+              <td>ニューヨーククイーンズ区に生まれる</td>
+            </tr>
+            <tr>
+              <th>2017年-2018年</th>
+              <td>
+                Web制作アシスタントでHTML/CSSを組み込んだホームページを制作する<br />
+                さらに、2018年からはJavaScriptを使用したアニメーションの実装も行う。
+              </td>
+            </tr>
+            <tr>
+              <th>2019年</th>
+              <td>
+                Wordpressを使用したWeb制作をはじめる。また、必要なプラグインを適宜導入し、よりオリジナリティのあるWebサイトを制作する。
+              </td>
+            </tr>
+            <tr>
+              <th>2021年-</th>
+              <td>
+                SQLに関心を持ち、データベースを使用した アプリ開発に挑戦中。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="skills" class="offset">
+        <p class="center-red">SKILLS</p>
+        <table class="skill-table">
+          <tbody>
+            <tr>
+              <th>Canva</th>
+              <td>トリミング、画像加工</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>HTML</th>
+              <td>様々な業種のホームページ制作</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>CSS</th>
+              <td>装飾、アニメーションの実装</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Javascript</th>
+              <td>アニメーションの実装</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <th>Wordpress</th>
+              <td>
+                HTML/CSSで作成したページをWordpressに組み込み、
+                かつプラグインでカスタマイズする。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="works" class="offset">
+        <p class="center-red">WORKS</p>
+        <div class="workarea">
+          <div class="wrk-imgblock">
+            <img id="mybtn" src="./imgs/HistChart.png" alt="" />
+            <div class="workname">
+              <p class="workname-title">データ分析</p>
+              <div class="card-desc">
                 <p>
-                  営業時間
-                  <br />
-                  月・火・水・金：10:00～14:00 　16:00～21:00
-                  <br />
-                  木・土：10:00～17:00
-                  <br />
-                  定休日：日・祝
-                  <br />
-                  駐車場：近隣にコインパーキング有り
-                </p>
+                Pythonのライブラリの一つであるPandasを使用し、ヒストグラムを作成しました
+              </p>
               </div>
             </div>
           </div>
-          <div class="footer_widget_content reserve_widget">
-            <div class="footer_widget_inner">
-              <p class="desc">お電話・オンライン予約にて承っております。</p>
-              <a href="" class="reserve_button">
-                <span class="icon icon_type_google Smartphone"></span>
-                <span class="label tel_label">
-                  <span class="large-font">06-1234-5678</span>
-                </span>
-              </a>
-              <a href="" class="reserve_button">
-                <span class="icon icon_type_google Calendar"></span>
-                <span class="label">オンライン予約</span>
-              </a>
+          <div id="Modal1" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <img
+                src="./imgs/markus-winkler-IrRbSND5EUc-unsplash.jpg"
+                alt=""
+              />
             </div>
           </div>
-        </section>
-        <p id="footer_info">
-          心から元気になる庵 | HOLOS
-          <br />
-          〒550-1234 大阪府大阪市浪速区大阪町1-2-3
-        </p>
-        <ul id="footer_sns" class="sns_button_list clearfix color_type1"></ul>
-        <p id="copyright">
-          <span>© 2024 TCD WordPress Theme</span>
-        </p>
-      </footer>
-    </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/Hands holding pencils to play tic tac toe.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">〇✖ゲーム</p>
+              <p class="card-desc">pythonを使用した〇✖ゲームを開発しました</p>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/mae-black-CHRSuUZonZ4-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">
+                架空のアイスクリームショップコーポレートサイト
+              </p>
+              <div class="card-desc">
+                <p>
+                HTML/CSSを使用した架空のアイスクリーム店のWEBサイトです
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg"
+              alt=""
+            />
+            <div class="workname">
+              <p class="workname-title">バーガーショップ管理システムアプリ</p>
+              <div class="card-desc">
+                <p>pythonを使用した簡潔なショップ管理システムです</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/vadim-sherbakov-d6ebY-faOO0-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">架空の大学WEBサイト</p>
+              <div class="card-desc">
+                <p>HTML,CSS そしてWordpressのプラグインを使用した架空の大学サイト</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrk-imgblock">
+            <img
+              src="./imgs/guilherme-petri-PtOfbGkU3uI-unsplash.jpg"
+              alt=""
+              style="object-fit: cover"
+            />
+            <div class="workname">
+              <p class="workname-title">
+                架空の美容室WEBサイト
+              </p>
+              <div class="card-desc">
+                <p>こちらもHTML,CSS そしてWordpressのプラグインを使用しております</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="offset">
+        <p class="center-red">CONTACT</p>
+        <div class="contact-content">
+          <div class="information">
+            <p>INFORMATION</p>
+            <p>TEL:80-**-****-****</p>
+            <p>Email:fromexample@com</p>
+            <div class="sns-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-line"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <form action="#">
+            <div class="form-group">
+              <label>Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="email"
+                required
+              />
+            </div>
+            <!--<div class="form-group">
+              <label>性別</label>
+              <input type="radio" name="" id="sex"/>
+              <input type="radio" name="" id="sex"/>
+            </div>-->
+            <div class="form-group">
+              <label>Subject</label>
+              <input
+                type="text"
+                name="email"
+                id="subject"
+                placeholder="subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea name="message" id="message" placeholder="message" /></textarea>
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+
+      <p>© 2024 Oswald Yorkland Inc.</p>
+    </footer>
+    <script>
+      var modal = document.getElementById("Modal1");
+      var btn = document.getElementById("mybtn");
+      var span = document.getElementsByClassName("close")[0];
+
+      mybtn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+
+      $(function () {
+        $(window).on("scroll", function () {
+          mvHeight = $("#title").height();
+          if ($(window).scrollTop() > mvHeight) {
+            $("header").addClass(".center-red");
+          }
+        });
+      });
+
+      document.querySelector(".hamburger-menu").addEventListener('click',
+      function () {
+        $(this).toggleClass('active');
+        document.querySelector('.slide-menu').classList.toggle('active');
+      });
+
+      function closeMenu(){
+        $(".hamburger-menu").removeClass('active');
+        $(".slide-menu").removeClass('active');
+
+      }
+
+
+
+
+    </script>
   </body>
 </html>
