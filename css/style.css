@@ -1,5 +1,5 @@
 *{
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
 
 body{
@@ -86,7 +86,6 @@ header>.menu-list>li>a:hover:after {
 .slide-menu{
     display: none;
 }
-
 
 
 #title{
@@ -274,13 +273,13 @@ button:active{
     border:1px solid rgba(128, 128, 128, 0.445);
     background-color: rgb(246, 251, 255);
     padding:19px;
-    
 }
 
 .workarea{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .wrk-imgblock{
@@ -306,7 +305,6 @@ button:active{
 .card-desc{
     margin:0;
     background-color:lightgrey;
-    height:49px;
 }
 
 .card-desc p{
@@ -346,7 +344,7 @@ button:active{
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
@@ -368,129 +366,6 @@ button:active{
 
 
   }*/
-
-@media (max-width: 1474px){
-    .sns-icons{
-        margin-left:20px;
-    }
-}
-
-@media (max-width: 1164px){
-     .menu-list li{
-        display: none;
-     }
-
-     .hamburger-menu{
-        display: block;
-        width: 40px;
-        height: 5px;
-        padding:12px;
-        position: relative;
-        right:40px;
-        margin-top:35px;
-     }
-
-     .hamburger-menu span{
-        position: absolute;
-        top:30px;
-        width: 60%;
-        height: 1px;
-
-        background-color: rgb(255, 255, 255);
-        transition: .5s;/* 追記 */
-      }
-    
-    .hamburger-menu span:first-of-type{
-        top:0;
-    }
-
-    .hamburger-menu span:nth-of-type(2){
-        top:50%;
-    }
-
-    .hamburger-menu span:last-of-type{
-        top:100%;
-    }
-    
-    .hamburger-menu.active span:first-of-type{
-        top: 50%;
-        transform: rotate(50deg);
-    }
-
-    .hamburger-menu.active span:nth-of-type(2){
-        opacity: 0;
-    }
-
-    .hamburger-menu.active span:last-of-type{
-        top: 50%;
-        transform: rotate(-50deg);
-    }
-
-    .slide-menu.active{
-        display: block;
-        background-color: rgba(0, 0, 0, .8);
-        position: fixed;
-        top: 95px;
-        width: 80%;     
-        left: -800px;
-        transition: .5s;/* 追記 */
-        transform: translateX(0);
-        animation: leftmove 0.5s;
-        animation-fill-mode: forwards;
-      }
-
-      @keyframes leftmove{
-        0%{
-            left: -800px;
-            opacity:0;
-        }
-
-        100%{
-            left: 0;
-            opacity:1;
-        }
-      }
-
-      .slide-menu.withdraw{
-          animation:leftback 0.5s;
-      }
-
-      @keyframes leftback{
-          0%{
-            left: 0;
-            opacity:1;
-        }
-
-        100%{
-            left: -800px;
-            opacity:0;
-        }
-      }
-
-      .slide-menu.active li{
-        color: #fff;
-        line-height: 300%;
-        text-align: left;
-        list-style-type: none;
-        font-size:40px;
-      }
-
-      .slide-menu.active>li>a{
-        transition:0.1s;
-      }
-
-      .slide-menu.active>li>a:active{
-        color:aquamarine;
-      }
-
-}
-
-@media (max-width: 1069px){
-    #title p{
-        transform: translate(0, 200px);
-      }
-
-}
 
 @media (max-width: 992px){
  .contact-content{
@@ -514,10 +389,6 @@ button:active{
     text-align: center;
  }
 
-.sns-icons{
-    margin-left:35px;
- }
-
  .sns-icons a{
     font-size: 49px;
     padding-left:55px;
@@ -529,6 +400,18 @@ button:active{
     .contact-content{
         display: flex;
         flex-wrap: wrap;
+     }
+
+     .wrk-imgblock{
+        border:1px solid black;
+        margin:50px;
+        width: 200px;
+     }
+     
+     .wrk-imgblock img{
+        width: 200px;
+        height:150px;
+     
      }
 
      form{
@@ -573,7 +456,6 @@ button:active{
         top:30px;
         width: 60%;
         height: 1px;
-
         background-color: rgb(255, 255, 255);
         transition: .5s;/* 追記 */
       }
@@ -589,7 +471,7 @@ button:active{
     .hamburger-menu span:last-of-type{
         top:100%;
     }
-    
+
     .hamburger-menu.active span:first-of-type{
         top: 50%;
         transform: rotate(50deg);
@@ -613,7 +495,7 @@ button:active{
 
     .slide-menu li{
         border:1px solid black;
-        list-style-type: none; 
+        list-style-type: none;
         background-color: white;
         padding:35px;
     }
@@ -630,7 +512,7 @@ button:active{
         background-color: rgba(0, 0, 0, .8);
         position: fixed;
         top: 95px;
-        width: 80%;     
+        width: 80%;
         left: -800px;
         transition: .5s;/* 追記 */
         transform: translateX(0);
@@ -648,7 +530,10 @@ button:active{
             left: 0;
             opacity:1;
         }
-      }
+    }
+
+    
+
 
 
 
@@ -668,23 +553,6 @@ button:active{
         color:aquamarine;
       }
 
-      .slide-menu.withdraw{
-          animation:leftback 0.5s;
-          
-      }
-
-      @keyframes leftback{
-          0%{
-            left: 0;
-            opacity:1;
-        }
-
-        100%{
-            left: -800px;
-            opacity:0;
-        }
-      }
-
       #title p{
         transform: translate(0, 200px);
       }
@@ -693,15 +561,13 @@ button:active{
 
 @media (max-width:394px)
 {
-　　#title{
+    #title{
         height:700px;
     }
-    
+
     #title p{
         font-size:80px;
     }
-
-
 
     header>div>a{
         font-size:25px;
@@ -714,6 +580,18 @@ button:active{
 
     .abomessage{
         font-size:20px;
+    }
+
+    .bio-table{
+        width:350px;
+    }
+
+    .skill-table{
+        margin-top:30px;
+        border-collapse: collapse;
+        margin-bottom:30px;
+        width:350px;
+        margin: auto;
     }
 
     .information p{
