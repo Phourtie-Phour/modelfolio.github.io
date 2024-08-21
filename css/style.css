@@ -1,9 +1,11 @@
 *{
     scroll-behavior: smooth;
     padding:0;
-    margin:0;
 }
 
+body{
+    margin:0;
+}
 
 @font-face {
     font-family: "Railroad Gothic CC Bold";
