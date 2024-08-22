@@ -619,6 +619,16 @@ button:active{
         margin: 0px 12px;
         padding-left:0px;
     }
+
+    .hamburger-menu{
+        display: block;
+        right:20px;
+        bottom:4px;
+     }
+
+     .slide-menu.active{
+        top:79px;
+     }
 }
 
 @media (max-width:375px){
@@ -636,5 +646,10 @@ button:active{
         width:100%;
         max-width:330px;
         min-width:330px;
+     }
+
+    .hamburger-menu{
+        display: block;
+        bottom:1px;
      }
 }
