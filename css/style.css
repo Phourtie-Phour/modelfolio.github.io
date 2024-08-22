@@ -229,8 +229,9 @@ button:active{
     margin-top:30px;
     border-collapse: collapse;
     margin-bottom:30px;
-    width:750px;
-    margin: auto;
+    max-width:750px;
+    min-width:750px;
+    margin: 0 auto;
 }
 
 .bio-table tbody{
@@ -255,7 +256,9 @@ button:active{
     margin-top:30px;
     border-collapse: collapse;
     margin-bottom:30px;
-    width:850px;
+    width:100%;
+    max-width:850px;
+    min-width:850px;
     margin: auto;
 }
 
@@ -300,6 +303,7 @@ button:active{
 }
 
 .workname-title{
+    
     word-break: break-all;
 }
 
@@ -435,7 +439,9 @@ button:active{
         padding-left:20px;
      }
      .skill-table{
-        width:700px;
+        width:100%;
+        max-width:700px;
+        min-width:700px;
      }
 
     .menu-list li{
@@ -584,14 +590,18 @@ button:active{
     }
 
     .bio-table{
-        width:350px;
+        width:100%;
+        max-width:350px;
+        min-width:350px;
     }
 
     .skill-table{
         margin-top:30px;
         border-collapse: collapse;
         margin-bottom:30px;
-        width:350px;
+        width:100%;
+        max-width:350px;
+        min-width:350px;
         margin: auto;
     }
 
@@ -609,4 +619,22 @@ button:active{
         margin: 0px 12px;
         padding-left:0px;
     }
+}
+
+@media (max-width:375px){
+    .bio-table{
+        width:100%;
+        max-width:350px;
+        min-width:350px;
+    }
+
+    .sns-icons{
+        flex-wrap: nowrap;
+    }
+
+    .skill-table{
+        width:100%;
+        max-width:330px;
+        min-width:330px;
+     }
 }
