@@ -1,6 +1,5 @@
 *{
     scroll-behavior: smooth;
-    padding:0;
 }
 
 body{
@@ -88,14 +87,14 @@ header>.menu-list>li>a:hover:after {
     display: none;
 }
 
-
-#title{
-    background-image:url(../imgs/goran-ivos-iacpoKgpBAM-unsplash.jpg);
-    background-size: cover;
+#title img{
+        background-size: cover;
     width:100%;
     height:900px;
     background-position: center;
     background-attachment: fixed;
+
+
 }
 
 #title p{
@@ -106,6 +105,9 @@ header>.menu-list>li>a:hover:after {
     transform:translate(0,300px);
     text-align: center;
     text-shadow:2px 2px rgb(182, 41, 41);
+    position:absolute;
+    left:450px;
+    bottom:500px;
 }
 
 #title .subtitle{
@@ -113,6 +115,8 @@ header>.menu-list>li>a:hover:after {
     font-size:50px;
     margin-top:-90px;
     text-shadow: none;
+    position:absolute;
+    left:700px;
 }
 
 footer{
@@ -402,6 +406,17 @@ button:active{
 }
 
 @media (max-width: 768px){
+     #title p{
+        left:0px;
+        bottom:300px;
+     }
+
+     #title .subtitle{
+        left:140px;
+        bottom:330px;
+     }
+
+
     .contact-content{
         display: flex;
         flex-wrap: wrap;
@@ -570,10 +585,18 @@ button:active{
 
     #title p{
         font-size:98px;
+        left:0px;
+        bottom:550px;
     }
 
-    #title{
-        height:700px;
+
+    #title .subtitle{
+        left:0px;
+        bottom:450px;
+    }
+
+    #title img{
+        height:750px;
     }
 
     .hamburger-menu{
@@ -616,6 +639,16 @@ button:active{
 @media (max-width:414px){
     #title p{
         font-size:95px;
+        bottom:650px;
+    }
+
+    #title .subtitle{
+        left:0px;
+        bottom:500px;
+    }
+
+    #title img{
+        height:650px;
     }
 
     .slide-menu.active{
@@ -647,7 +680,7 @@ button:active{
     }
 
     header>div>a{
-        font-size:25px;
+        font-size:26px;
         margin-left:35px;
     }
 
@@ -703,6 +736,7 @@ button:active{
 
 
 @media (max-width:375px){
+
     .bio-table{
         width:100%;
         max-width:350px;
@@ -721,7 +755,11 @@ button:active{
 
      .hamburger-menu{
         display: block;
-        bottom:1px;
+        bottom:5px;
      }
+
+     header>div>a{
+        font-size:26px;
+    }
 
 }
