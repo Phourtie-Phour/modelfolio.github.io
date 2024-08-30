@@ -1,6 +1,5 @@
 *{
     scroll-behavior: smooth;
-    padding:0
 }
 
 body{
@@ -86,6 +85,10 @@ header>.menu-list>li>a:hover:after {
 
 .slide-menu{
     display: none;
+}
+
+#title{
+    position: relative;
 }
 
 #title img{
@@ -587,13 +590,13 @@ button:active{
     #title p{
         font-size:98px;
         left:0px;
-        bottom:550px;
+        bottom:400px;
     }
 
 
     #title .subtitle{
         left:0px;
-        bottom:450px;
+        bottom:300px;
     }
 
     #title img{
@@ -640,12 +643,12 @@ button:active{
 @media (max-width:414px){
     #title p{
         font-size:95px;
-        bottom:590px;
+        bottom:350px;
     }
 
     #title .subtitle{
         left:0px;
-        bottom:480px;
+        bottom:280px;
     }
 
     #title img{
@@ -672,12 +675,18 @@ button:active{
 
 @media (max-width:394px)
 {
-    #title{
-        height:700px;
+
+    #title img{
+        height:600px;
     }
 
     #title p{
         font-size:80px;
+        bottom:350px;
+    }
+
+    #title .subtitle{
+        bottom:250px;
     }
 
     header>div>a{
@@ -737,6 +746,14 @@ button:active{
 
 
 @media (max-width:375px){
+
+    #title p{
+        bottom:370px;
+    }
+
+    #title .subtitle{
+        bottom:250px;
+    }
 
     .bio-table{
         width:100%;
