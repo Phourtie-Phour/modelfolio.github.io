@@ -640,12 +640,12 @@ button:active{
 @media (max-width:414px){
     #title p{
         font-size:95px;
-        bottom:650px;
+        bottom:590px;
     }
 
     #title .subtitle{
         left:0px;
-        bottom:500px;
+        bottom:480px;
     }
 
     #title img{
