@@ -632,12 +632,7 @@ button:active{
      }
 }
 
-@media (max-width:375px){
-#title{
-   width:40%;
-}
-
-    
+@media (max-width:375px){    
     .bio-table{
         width:100%;
         max-width:350px;
