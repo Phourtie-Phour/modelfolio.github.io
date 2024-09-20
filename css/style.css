@@ -225,6 +225,8 @@ input,textarea{
     height: calc(1.5em + .75rem + 2px);
     border: 1px solid black;
     border-radius: 4px;
+    caret-color: #000;
+    padding-left:8px;
 }
 
 .former{
