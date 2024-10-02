@@ -333,6 +333,7 @@ button:active{
 .card-desc{
     margin:0;
     background-color:lightgrey;
+    height:60px;
 }
 
 .card-desc p{
