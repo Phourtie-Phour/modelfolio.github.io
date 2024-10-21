@@ -486,25 +486,6 @@ button:active{
     transform: rotate(-50deg);
 }
 
-/*.slide-menu{
-      display: flex;
-      justify-content: space-between;
-      position:fixed;
-      bottom:24px;
-    }
-
-    .slide-menu li{
-        border:1px solid black;
-        list-style-type: none;
-        background-color: white;
-        padding:35px;
-    }
-
-    .slide-menu li a{
-        text-decoration: none;
-        text-align: center;
-    }*/
-
 .slide-menu.active{
     display: block;
     background-color: rgba(0, 0, 0, .8);
@@ -546,6 +527,7 @@ button:active{
         opacity:1;
     }
 
+ }
 }
 
 @media (max-width: 768px){
