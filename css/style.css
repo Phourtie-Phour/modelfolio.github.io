@@ -1,6 +1,7 @@
 *{
     scroll-behavior: smooth;
     padding:0;
+    transition: 0.5s all;
 }
 
 body{
@@ -67,7 +68,7 @@ header>ul>li>a{
   font-family: "Railroad Gothic CC Bold";
   font-size:40px;
   transition: 1.5s;
-  
+
 }
 
 header>.menu-list>li>a:after {
@@ -401,16 +402,35 @@ button:active{
 @media (max-width:1280px){
     #title p{
         left:120px;
-        bottom:650px;
+        bottom:380px;
     }
 
     #title .subtitle{
         left:400px;
     }
 
+    #title img{
+        height:600px;
+    }
+
 }
 
 @media (max-width: 992px){
+    #title img{
+        height:580px;
+    }
+
+    #title p{
+        font-size:120px;
+        left:65px;
+        bottom:440px;
+    }
+
+    #title .subtitle{
+        left:240px;
+    }
+
+
  .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -527,18 +547,19 @@ button:active{
         opacity:1;
     }
 
- }
+}
 }
 
 @media (max-width: 768px){
      #title p{
+        font-size:105px;
         left:0px;
-        bottom:300px;
+        bottom:330px;
      }
 
      #title .subtitle{
-        left:140px;
-        bottom:330px;
+        left:185px;
+        font-size:40px;
      }
 
 
@@ -713,21 +734,22 @@ button:active{
 
 @media(max-width:430px){
 
+    
+
     #title p{
         font-size:98px;
         left:0px;
-        bottom:400px;
+        bottom:265px;
     }
 
 
     #title .subtitle{
-        left:0px;
-        bottom:300px;
+        font-size:35px;
+        left:40px;
+        
     }
 
-    #title img{
-        height:750px;
-    }
+
 
     .hamburger-menu{
         right:15px;
@@ -769,16 +791,12 @@ button:active{
 @media (max-width:414px){
     #title p{
         font-size:95px;
-        bottom:350px;
+        bottom:300px;
     }
 
     #title .subtitle{
-        left:0px;
-        bottom:280px;
-    }
-
-    #title img{
-        height:650px;
+        left:30px;
+        
     }
 
     .slide-menu.active{
@@ -807,12 +825,13 @@ button:active{
     }
 
     #title p{
-        font-size:80px;
-        bottom:350px;
+        font-size:90px;
+        bottom:300px;
     }
 
     #title .subtitle{
-        bottom:250px;
+        left:19px;
+        
     }
 
     header>div>a{
