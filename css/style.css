@@ -130,7 +130,7 @@ header>.menu-list>li>a:hover:after {
     margin-top:-90px;
     text-shadow: none;
     position:absolute;
-    bottom:10%;
+    bottom:50%;
 }
 
 footer{
