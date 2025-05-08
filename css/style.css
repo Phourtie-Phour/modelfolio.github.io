@@ -119,9 +119,7 @@ header>.menu-list>li>a:hover:after {
     text-align: center;
     text-shadow:2px 2px rgb(182, 41, 41);
     position:absolute;
-    left:50%;
-    bottom:350px;
-    transform:translate(-50%,-350px);
+
 }
 
 #title .subtitle{
@@ -129,8 +127,7 @@ header>.menu-list>li>a:hover:after {
     font-size:50px;
     margin-top:-90px;
     text-shadow: none;
-    position:absolute;
-    bottom:50%;
+
 }
 
 footer{
