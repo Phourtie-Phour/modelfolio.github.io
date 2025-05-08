@@ -398,7 +398,7 @@ button:active{
     }
 
 
-  }*/
+  }
 
 @media (max-width:1600px) {
     #title p{
@@ -406,7 +406,7 @@ button:active{
         bottom:50%;
         transform:translate(-50%,-50%)
     }
-}
+}*/
 
 @media (max-width:1280px){
     #title p{
