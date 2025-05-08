@@ -413,9 +413,9 @@ button:active{
         transform:translate(-50%,0%);
     }
 
-    #title .subtitle{
+    /*#title .subtitle{
         left:400px;
-    }
+    }*/
 
     #title img{
         height:600px;
