@@ -756,9 +756,7 @@ button:active{
 
 
     #title .subtitle{
-        font-size:35px;
-        left:40px;
-        
+        font-size:35px;        
     }
 
 
@@ -806,10 +804,7 @@ button:active{
         bottom:300px;
     }
 
-    #title .subtitle{
-        left:30px;
-        
-    }
+
 
     .slide-menu.active{
         top:90px;
@@ -841,10 +836,7 @@ button:active{
         bottom:300px;
     }
 
-    #title .subtitle{
-        left:19px;
-        
-    }
+
 
     header>div>a{
         font-size:26px;
