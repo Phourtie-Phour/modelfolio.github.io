@@ -411,6 +411,7 @@ button:active{
         left:50%;
         bottom:0%;
         transform:translate(-50%,0%);
+        font-size: 100px;
     }
 
     /*#title .subtitle{
