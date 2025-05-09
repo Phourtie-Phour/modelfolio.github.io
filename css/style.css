@@ -120,8 +120,8 @@ header>.menu-list>li>a:hover:after {
     text-shadow:2px 2px rgb(182, 41, 41);
     position:absolute;
     left:50%;
-    bottom:15%;
-    transform:translate(-50%, -15%);
+    bottom:18%;
+    transform:translate(-50%, -18%);
 }
 
 #title .subtitle{
