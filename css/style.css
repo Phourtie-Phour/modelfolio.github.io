@@ -131,8 +131,8 @@ header>.menu-list>li>a:hover:after {
     text-shadow: none;
     position:absolute;
     left:50%;
-    bottom:23%;
-    transform:translate(-50%,-23%);
+    bottom:27%;
+    transform:translate(-50%,-27%);
 }
 
 footer{
