@@ -750,7 +750,6 @@ button:active{
     #title p{
         font-size:98px;
         left:0px;
-        bottom:265px;
     }
 
 
@@ -801,7 +800,6 @@ button:active{
 @media (max-width:414px){
     #title p{
         font-size:95px;
-        bottom:300px;
     }
 
 
