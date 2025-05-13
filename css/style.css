@@ -696,7 +696,7 @@ button:active{
         display: block;
         background-color: rgba(0, 0, 0, .8);
         position: fixed;
-        top: 98px;
+        top: 108px;
         width: 80%;
         left: -800px;
         transition: .5s;/* 追記 */
