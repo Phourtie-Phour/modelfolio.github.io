@@ -524,6 +524,7 @@ button:active{
     top: 95px;
     width: 60%;
     left: 0px;
+    margin:0;
     transition: .5s;/* 追記 */
     transform: translateX(0);
     animation: leftmove 0.5s;
