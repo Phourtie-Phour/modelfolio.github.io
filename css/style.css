@@ -32,12 +32,15 @@ body{
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.6)!important;
-    display: flex;
-    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6)!important; 
     position: fixed;
-    width: 100%;
     z-index:1;
+}
+
+.container{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
 }
 
 header>div{
