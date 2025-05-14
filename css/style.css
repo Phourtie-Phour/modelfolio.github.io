@@ -43,19 +43,19 @@ header{
    width: 100%;
 }
 
-header>div{
+.container>div{
   padding:30px 50px;
   width:300px;
 }
 
-header>div>a {
+.container>div>a {
     color:#fff;
     font-family: "Railroad Gothic CC Bold";
     font-size:40px;
     text-decoration: none;
 }
 
-header>ul {
+.container>ul {
     display: flex;
     margin-right:20px;
 }
@@ -65,7 +65,7 @@ header>ul {
     list-style-type: none;
 }
 
-header>ul>li>a{
+.container>ul>li>a{
   color: #fff;
   text-decoration: none;
   font-family: "Railroad Gothic CC Bold";
@@ -74,7 +74,7 @@ header>ul>li>a{
 
 }
 
-header>.menu-list>li>a:after {
+.container>.menu-list>li>a:after {
     content:'';
     width:0;
     transition: 0.5s;
@@ -82,12 +82,12 @@ header>.menu-list>li>a:after {
     border-bottom: 1px solid yellow;
 }
 
-header>.menu-list>li>a:hover{
+.container>.menu-list>li>a:hover{
     transition: 1.5s;
     color: yellow;
 }
 
-header>.menu-list>li>a:hover:after {
+.container>.menu-list>li>a:hover:after {
     width: 100%;
     border-bottom: 1px solid yellow;
   }
