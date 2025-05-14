@@ -455,7 +455,7 @@ button:active{
     width:950px;
  }
  
- header>div{
+ .container>div{
     padding:30px 10px;
  }
 
@@ -785,7 +785,7 @@ button:active{
         min-width:35px;
     }
 
-    header>div>a{
+    .container>div>a{
         font-size:35px;
         margin-left:10px;
     }
@@ -841,7 +841,7 @@ button:active{
 
 
 
-    header>div>a{
+    .container>div>a{
         font-size:26px;
         margin-left:35px;
     }
@@ -928,7 +928,7 @@ button:active{
         bottom:5px;
      }
 
-     header>div>a{
+     .container>div>a{
         font-size:26px;
     }
 
