@@ -251,7 +251,7 @@ input[type=submit]{
     border: 2px outset rgb(0, 209, 209);
     margin:19px;
     padding:5px;
-    width:100%;
+    width:20%;
     text-align:left;
 }
 
@@ -934,6 +934,7 @@ input[type=submit]:active{
     }
 
 }
+
 
 
 
