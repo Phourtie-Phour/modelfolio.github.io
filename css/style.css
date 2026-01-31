@@ -238,6 +238,7 @@ input,textarea{
 
 label{
     margin-bottom:3px;
+    display:block;
 }
 
 textarea{
@@ -942,6 +943,7 @@ input[type=submit]:active{
     }
 
 }
+
 
 
 
