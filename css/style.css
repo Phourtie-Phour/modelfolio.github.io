@@ -237,6 +237,10 @@ input,textarea{
     margin-top:3px;
 }
 
+textarea{
+    margin-top:3px;
+}
+
 textarea::placeholder{
     padding-top:5px;
 }
@@ -251,7 +255,7 @@ input[type=submit]{
     border: 2px outset rgb(0, 209, 209);
     margin:19px;
     padding:5px;
-    width:20%;
+    width:10%;
     text-align:left;
 }
 
@@ -934,6 +938,7 @@ input[type=submit]:active{
     }
 
 }
+
 
 
 
