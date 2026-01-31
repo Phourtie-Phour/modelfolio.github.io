@@ -234,11 +234,14 @@ input,textarea{
     border-radius: 4px;
     caret-color: #000;
     padding-left:8px;
-    margin-top:3px;
 }
 
 label{
     margin-bottom:3px;
+}
+
+textarea{
+    margin-top:3px;
 }
 
 
@@ -939,6 +942,7 @@ input[type=submit]:active{
     }
 
 }
+
 
 
 
