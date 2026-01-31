@@ -203,8 +203,8 @@ footer p{
     width:100%;
     text-align: center;
     margin-top: 50px;
-    margin-left: 10px;
     display: flex;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
@@ -931,3 +931,4 @@ button:active{
     }
 
 }
+
