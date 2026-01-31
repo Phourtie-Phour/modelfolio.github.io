@@ -246,7 +246,7 @@ textarea::placeholder{
     display: block;
 }
 
-button{
+input[type=submit]{
     background-color: aqua;
     border: 2px outset rgb(0, 209, 209);
     margin:19px;
@@ -254,7 +254,7 @@ button{
     text-align:left;
 }
 
-button:active{
+input[type=submit]:active{
     transform: translate(0,2px);
 }
 
@@ -933,6 +933,7 @@ button:active{
     }
 
 }
+
 
 
 
