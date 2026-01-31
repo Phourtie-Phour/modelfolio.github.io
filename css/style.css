@@ -234,6 +234,7 @@ input,textarea{
     border-radius: 4px;
     caret-color: #000;
     padding-left:8px;
+    margin-top:3px;
 }
 
 textarea::placeholder{
@@ -931,4 +932,5 @@ button:active{
     }
 
 }
+
 
