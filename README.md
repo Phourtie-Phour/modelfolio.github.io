@@ -54,6 +54,8 @@ Multiple adjustments were requested to improve visual balance and clarity.
 
 - CSS
 
+- jQuery
+
 # What I learned
 
 - How to adapt designs to real-world constraints
