@@ -6,16 +6,7 @@ This is a teaching material for beginners HTML & CSS + Interaction Practice
 Note: Oswald Yorkland is a fictional character created for this learning exercise.
 
 # My Responsibilities
-
-- Implemented the landing page based on design specifications
-
-- Adjusted layout, spacing, and alignment to match design intent
-
-- Handled multiple revisions based on feedback
-
 - Ensured responsive design across desktop and mobile devices
-
-- Collaborated with designers for UI improvements and clarification
 
 # Key Points
 - Focused on readability and accessibility for users with sensory sensitivities
