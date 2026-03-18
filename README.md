@@ -1,52 +1,50 @@
-# modelfolio.github.io
+# 🎨 Oswald Yorkland Portfolio (Fictional Character)
 
-# Overview
-This is a teaching material for beginners HTML & CSS + Interaction Practice
+## 📝 OverView
+This is a portfolio project focusing on **basic HTML/CSS structure** with interactive elements.  
+Key features include **hover animations**, **flex layout** for horizontal alignment, and **positioning text over images** using CSS.
 
-Note: Oswald Yorkland is a fictional character created for this learning exercise.
+> ⚠️ **Note:** Oswald Yorkland is a fictional character created for this learning exercise.
 
-# My Responsibilities
-- Ensured responsive design across desktop and mobile devices
+---
 
-# Key Points
-- Focused on readability and accessibility for users with sensory sensitivities
-- Built a clean and consistent layout while maintaining design accuracy
-- Adapted design to real-world implementation constraints
+## 👤 My Responsibilities
+- Designed and implemented **semantic HTML structure**.  
+- Styled layouts and interactive components using **CSS** and minimal **jQuery**.  
+- Ensured **responsive design** and maintainable code for learning purposes.
 
-# Challenges & Approach
+---
 
-## Design vs Implementation Gap
+## 📌 Key Points
+- **Flexbox** for horizontal layout alignment.  
+- **Hover animations** for visual feedback.  
+- **Text positioning** over images with CSS.  
+- **Hamburger menu** for responsive navigation.  
+- Clear project structure for **asynchronous learning and code review**.
 
-The provided design images did not perfectly align with the actual layout.
+---
 
-### Approach
+## ⚔️ Challenges & Approach
 
-- Carefully analyzed spacing and proportions
+**Challenge:**  
+Implementing interactive elements while keeping the code simple and understandable for learners.
 
-- Iteratively adjusted layout with CSS
+**Approach:**  
+- Prioritized **simplicity and readability** in both HTML and CSS.  
+- Introduced interactive elements **step by step** to demonstrate immediate visual feedback.  
+- Structured code to allow learners to understand **layout, interaction, and responsiveness** simultaneously.
 
-- Communicated with designers to refine alignment and spacing
+---
 
-## Frequent Revisions
+## 🛠️ Technologies
+- HTML5  
+- CSS3 (including Flexbox and positioning)  
+- jQuery (for hover effects and minor interactivity)
 
-Multiple adjustments were requested to improve visual balance and clarity.
+---
 
-- Responded quickly to requests
-
-- Improved layout structure for readability
-
-- Ensured consistency across devices
-
-
-
-# Technologies
-
-- HTML
-
-- CSS
-
-- jQuery
-
-# What I learned
-
-- How to adapt designs to real-world constraints
+## 💡 What I Learned
+- Combining **layout and interactivity** in a beginner-friendly way.  
+- Importance of **semantic HTML** and **maintainable CSS** for learning and collaboration.  
+- Structuring small projects for learners to **practice front-end skills progressively**.  
+- Implementing **responsive navigation** with a clear, understandable approach.
